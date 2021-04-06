@@ -26,7 +26,7 @@ public class MainBean {
 		games.add(new Game("Hollow Knight", 10, GameCategory.METROIDVANIA, 100));
 		games.add(new Game("Castelvania", 1, GameCategory.METROIDVANIA, 88));
 		games.add(new Game("Crash Bandicoot", 40, GameCategory.PLATFORM, 85));
-		games.add(new Game("Rocket League", 0, GameCategory.ROCKET_LEAGUE, 95));
+		games.add(new Game("Rocket League", 1, GameCategory.ROCKET_LEAGUE, 95));
 		games.add(new Game("Need For Speed Heat", 70, GameCategory.RACING, 60));
 		for (Game game : games) {
 			gameService.create(game);
